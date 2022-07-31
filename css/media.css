@@ -1,0 +1,56 @@
+@media (max-width: 370px)
+{
+    .card
+    {
+        padding: 3.6rem;
+    }
+}
+
+@media (min-width: 720px)
+{
+    .cards-container
+    {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        max-width: none;
+    }
+
+    .card
+    {
+        padding: 4rem;
+    }
+
+    .learn-more-btn
+    {
+        padding: 1.6rem;
+    }
+
+    .sedans
+    {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .luxury
+    {
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
+@media (min-width: 850px)
+{
+    .cards-container
+    {
+        min-height: 50rem;
+        max-width: 91rem;
+    }
+
+    .card
+    {
+        padding: 5rem;
+    }
+
+    .learn-more-btn
+    {
+        padding: 1.4rem;
+    }
+}
